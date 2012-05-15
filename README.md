@@ -21,6 +21,8 @@ After you are done in a room, either because it was empty or you defeated the en
 
 ![](https://github.com/newz2000/dungeon-game/raw/master/dungeon-game.png)
 
+In that map I didn't fill out all the squares, just a few to show how its done. Here's a <a href="https://github.com/newz2000/dungeon-game/raw/master/map.png">map that is complete</a> that you can use as an example.
+
 ## The goal:
 
 The goal of the game is to learn programming! You start out by controlling a team of characters through a dungeon inhabited by monsters with simple programming steps.
@@ -120,11 +122,20 @@ Then save your changes and copy and paste the game again. If you make many chang
 
 You can also change the list of monsters. Monsters are set in a list. You can make your own simply by adding to the list. Just follow the pattern: The word in quotes is the monster's name, the first number is its hit points (larger numbers are harder to kill). After that is strength, which means how hard they hit you. A higher number means more damage. The next number is it's accuracy, a value of 1-12 where 1 means they're not likely to hit you and 12 means they never miss. The last value is a few words in quotes. This is how they attack.
 
-Once you get good you can make your own types of heros by adding new Classes the inherit from the Person() class. Start with one of the examples and copy and paste it, changing the values of the class Name (i.e. Warrior) and their charactersitcs. The characterstics are just like monsters except they have one new one: defense. If an enemy would have done 10 damage to you but your defense is 4 then the damage is reduced by 4, meaning it only takes 6 hit points. Now you've learned about object oriented programming including classes and inheritance!
+Once you get good you can make your own types of heros by adding new Classes that inherit from the Person() class. Start with one of the examples and copy and paste it, changing the values of the class Name (i.e. Warrior) and their charactersitcs. The characterstics are just like monsters except they have one new one: defense. If an enemy would have done 10 damage to you but your defense is 4 then the damage is reduced by 4, meaning it only takes 6 hit points. Now you've learned about object oriented programming including classes and inheritance!
 
 Each time you make a change you have to re-paste the whole program. I'd suggest exiting python and starting it up again.
 
 Good luck, I hope you have fun.
+
+## TODO:
+
+The game is not perfect, nor is it complete. Here are a few things we plan to fix:
+
+ * Change the treature algorithm, some treasures are impossible to get
+ * Change the way items affect players. Currently it's possible to increase accuracy to 12 which means you never miss
+ * Improve the monster-finding algorithm so that lower numbered rooms get harder monsters and higher numbered rooms get easier monsters
+ * Create an easier-to-share Javascript version. This is harder than it sounds because the premise of this game is to introduce Object Oriented Programming which is very weird in JS.
 
 ## License
 
