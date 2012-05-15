@@ -17,7 +17,7 @@ Imagine a grid (an example grid is included). You've drawn a maze-like path from
 
 If you have a large open chamber you can choose to make the number smaller if you like.
 
-!(dungeon-game.png)
+![](https://github.com/newz2000/dungeon-game/raw/master/dungeon-game.png)
 
 ## The goal:
 
