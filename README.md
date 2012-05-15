@@ -1,6 +1,6 @@
 # Matt's Dungeon Game
 
-Me and my son created this game as an exercise to help him learn programming. We started out with a peace of paper and some dice. We then began to replace the parts fo the game that used the dice with a bit of Python code. Eventually we had alost the entire game in python, with the exception of the map.
+My son and I created this game as an exercise to help him learn programming. We started out with a piece of paper and some dice. We then began to replace the parts of the game that used the dice with a bit of Python code. Eventually we had alost the entire game in python, with the exception of the map.
 
 ## To play:
 
@@ -13,7 +13,7 @@ Me and my son created this game as an exercise to help him learn programming. We
 
 ## The premise:
 
-Start with a grid (an printable grid is included). You drawn a maze-like path from a starting-point to an end-point. See the example image below. Each room has a number, which is calculated by taking the number 7 and subtracting the number of adjacent (not diagonal) rooms. So for example, your first room may be a 6 if it touches only one room. The lower the number the harder the room will be, also the more likely you are to get a cool treasure!
+Start with a grid (a printable grid is included). You draw a maze-like path from a starting-point to an end-point. See the example image below. Each room has a number, which is calculated by taking the number 7 and subtracting the number of adjacent (not diagonal) rooms. So for example, your first room may be a 6 if it touches only one room. The lower the number the harder the room will be, also the more likely you are to get a cool treasure!
 
 If you have a large open chamber you can choose to make the number smaller if you like. See the purple numbers in the image below. 1 is the hardest room and is most likely to give you the best treasure.
 
