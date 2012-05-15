@@ -132,7 +132,7 @@ Good luck, I hope you have fun.
 
 The game is not perfect, nor is it complete. Here are a few things we plan to fix:
 
- * Change the treature algorithm, some treasures are impossible to get
+ * Change the treasure algorithm, some treasures are impossible to get
  * Change the way items affect players. Currently it's possible to increase accuracy to 12 which means you never miss
  * Improve the monster-finding algorithm so that lower numbered rooms get harder monsters and higher numbered rooms get easier monsters
  * Create an easier-to-share Javascript version. This is harder than it sounds because the premise of this game is to introduce Object Oriented Programming which is very weird in JS.
