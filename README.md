@@ -17,6 +17,8 @@ Imagine a grid (an example grid is included). You've drawn a maze-like path from
 
 If you have a large open chamber you can choose to make the number smaller if you like.
 
+!(dungeon-game.png)
+
 ## The goal:
 
 The goal of the game is to learn programming! You start out by controlling a team of characters through a dungeon inhabited by monsters with simple programming steps.
