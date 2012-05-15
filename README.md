@@ -32,11 +32,13 @@ Since your first room probably has a six then you'd start like this:
 The first thing you're doing is learning the syntax of programming. If you type something wrong then you get an error. If you type it right, you may get a prize or a monster!
 
 This is what you see if the room is empty:
+
     >>> room(6)
 
     This room is clear
 
 You might see this if there is a monster in the room:
+
     >>> room(6)
 
     Player2 has 100 hp
@@ -53,6 +55,7 @@ If you get a monster then you must attack it. No cowardice! You do this by typin
 `player_attack()`
 
 You'll see something like this:
+
     >>> player_attack()
 
     Player2 flails wildly at Two headed Dragon
@@ -69,6 +72,7 @@ Your players are initially weak so they may miss or they may not strike hard eno
 `monster_attack()`
 
 The monster may miss you or it may strike you. You may see something like this:
+
     >>> monster_attack()
 
     Two headed Dragon simultaneously breathes fire and ice
@@ -79,18 +83,19 @@ The monster may miss you or it may strike you. You may see something like this:
 Then you take turns `player_attack()` and `monster_attack()` until the monster dies. You may get a treasure!
 
 You'll see something like this:
->>> player_attack()
 
-Player3 swings sword at Two headed Dragon
+    >>> player_attack()
+
+    Player3 swings sword at Two headed Dragon
     Two headed Dragon was hit, losing 4 hp and died
-        Two headed Dragon: Oh yeah? Well, my dad can beat up your dad!
+    Two headed Dragon: Oh yeah? Well, my dad can beat up your dad!
 
-        You get a large potion! 40 hp for everyone!
+    You get a large potion! 40 hp for everyone!
 
 
-        Player2 has 124 hp
-        Player3 has 126 hp
-        Player1 has 125 hp
+    Player2 has 124 hp
+    Player3 has 126 hp
+    Player1 has 125 hp
 
 
 Then you go to the next room. It might be a 5, so you'd do this:
