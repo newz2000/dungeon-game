@@ -7,7 +7,7 @@ Me and my son created this game as an exercise to help him learn programming. We
 1. Install Python 2.7
 1. Open the python console, you can do this by:
   1. In Linux or Mac OS open a terminal and type `python`
-  1. In Windows, open Power Shell and type `\Python2.7\python.exe`
+  1. In Windows, open Power Shell and type `\Python27\python.exe`
 1. Copy the contents of the entire dungeon.py file and then paste them into the python console. Note: In Windows, you simply right click in powershell to paste.
 1. The game is ready to play. To see some simple instructions, type `print(HELP)`
 
