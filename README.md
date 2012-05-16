@@ -5,10 +5,11 @@ My son and I created this game as an exercise to help him learn programming. We 
 ## To play:
 
 1. Install Python 2.7
-1. Open the python console, you can do this by:
-  1. In Linux or Mac OS open a terminal and type `python`
-  1. In Windows, open Power Shell and type `\Python27\python.exe`
-1. Copy the contents of the entire dungeon.py file and then paste them into the python console. Note: In Windows, you simply right click in powershell to paste.
+1. Download [dungeon.py](https://raw.github.com/newz2000/dungeon-game/master/dungeon.py)
+1. You probably put dungeon.py file in your Downloads folder, so go there by typing `cd Downloads` 
+1. Open the python console and load the game, you can do this by:
+  1. In Linux or Mac OS open a terminal and type `python -i dungeon.py`
+  1. In Windows, open Power Shell and type `\Python27\python.exe -i dungeon.py`
 1. The game is ready to play. To see some simple instructions, type `print(HELP)`
 
 ## The premise:
@@ -136,6 +137,10 @@ The game is not perfect, nor is it complete. Here are a few things we plan to fi
  * Change the way items affect players. Currently it's possible to increase accuracy to 12 which means you never miss
  * Improve the monster-finding algorithm so that lower numbered rooms get harder monsters and higher numbered rooms get easier monsters
  * Create an easier-to-share Javascript version. This is harder than it sounds because the premise of this game is to introduce Object Oriented Programming which is very weird in JS.
+
+## Thanks
+
+Thanks to John Lenton and Łukasz Czyżykowski who told me about the -i option for python.
 
 ## License
 
