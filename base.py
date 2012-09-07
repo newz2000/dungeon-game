@@ -1,3 +1,7 @@
+import random
+import copy
+
+
 class Being(object):
     defense = 0
     name = 'being'

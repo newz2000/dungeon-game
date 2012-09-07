@@ -31,3 +31,10 @@ class Mage(Person):
     defense = 2
     attacks_by = "casts a spell"
 
+class Scout(Person):
+    hp = 150
+    strength = 4
+    accuracy = 6
+    defense = 3
+    attacks_by = "stabs with knives"
+    

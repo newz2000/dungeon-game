@@ -1,4 +1,7 @@
-
+import random
+import copy
+from monsters import *
+from dungeon import players
 
 def get_a_monster(chance):
     if random.randint(1, 6) >= chance:
