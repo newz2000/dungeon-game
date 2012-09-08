@@ -3,7 +3,7 @@ import copy
 from actions import *
 from monsters import *
 from heroes import *
-from story import story
+from story import show_story
 
 MONSTER_DEAD = "He's dead, Jim."
 PLAYERS_DEAD = "Everyone died and the monsters lived happily ever after. The end."
@@ -52,5 +52,6 @@ players = {
     'Player3' : Warrior('Player3'),
     }
 
-story()
+if __name__ == "__main__":
+    print "\nTo begin, type: show_story() and hit enter\n"
 

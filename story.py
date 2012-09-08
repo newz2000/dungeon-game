@@ -1,5 +1,5 @@
 
-def story():
+def show_story():
     """
     Show the chapter of the story
     """
@@ -15,5 +15,5 @@ def story():
     ]
     print( '\n'.join(storyline))
 
-    print('\n    for help type: print(HELP)')
+    print('\nFor help at any time, type: \nprint(HELP)\n')
 
