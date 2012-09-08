@@ -96,6 +96,7 @@ def room(room_level):
     monster = get_a_monster(room_level)
     if monster:
         status(False)
+        print monster.img
         print "There's a monster here!\nFight!"
     else:
         print "This room is clear"

@@ -1,4 +1,5 @@
 from base import Being
+from images import *
 
 class Monster(Being):
     last_words = [
@@ -15,25 +16,28 @@ class Monster(Being):
         "Oh yeah? Well, my dad can beat up your dad!",
         "Oh, so what you mean is you don't want to be friends?",
         ]
+    img = ""
 
-    def __init__(self, name, hp, strength, accuracy, attacks_by):
+    def __init__(self, name, hp, strength, accuracy, attacks_by, img=""):
         self.name = name
         self.hp = hp
         self.strength = strength
         self.accuracy = accuracy
         self.attacks_by = attacks_by
+        if img:
+            self.img = img
 
 
 # Monsters are defined here. The options are:
 # name, hp, strength, accuracy. Go ahead and make more monsters by adding to the list
 monsters = [
-    Monster('rat', 10,  1,  2, 'bites'),
+    Monster('rat', 10,  1,  2, 'bites', RAT_IMAGE),
     Monster('bat', 10,  1, 4, 'sucks your blood'),
     Monster('goblin', 20, 3, 6, 'stomps on your toes'),
     Monster('orc', 30,  4,  6, 'stabs with a spear'),
     Monster('troll', 40,  5, 6, 'swings a heavy club'),
     Monster('dragon', 50, 6,  6, 'breathes flames'),
-    Monster('blob', 30, 5,  3, 'blobs'),
+    Monster('blob', 30, 5,  3, 'blobs', BLOB_IMAGE),
     Monster('Two headed Dragon', 55, 6,  4, 'simultaneously breathes fire and ice'),
     Monster('hydra', 70, 6,  4, 'breathes scalding hot steam'),
     Monster('evil stone pegasus', 42, 4,  3, 'kicks with heavy stone hooves'),
